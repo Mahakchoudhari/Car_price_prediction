@@ -1,95 +1,110 @@
- Car Price Prediction
-📌 Project Overview
+# Car Price Prediction
+
+##  Project Overview
 
 This project predicts the selling price of used cars using Machine Learning techniques.
-The model is trained on various car-related features such as year, fuel type, kilometers driven, and ownership details.
+The model is trained on car dataset features such as year, fuel type, kilometers driven, and transmission type.
 
-The goal of this project is to build a regression model that can accurately estimate the price of a car based on its attributes, helping buyers and sellers make informed decisions.
+The objective of this project is to build a regression model that can accurately estimate car prices based on given input features.
 
-📊 Dataset
+---
 
-This project uses a Car Dekho dataset (commonly used in car price prediction tasks).
+ ## Dataset
 
-The dataset contains information about used cars listed for sale.
+This project uses a **Car Price Dataset**.
 
-🔑 Features
-Car Name
-Year
-Present Price
-Kms Driven
-Fuel Type
-Seller Type
-Transmission
-Owner
+🔗 Dataset Link:
+https://www.kaggle.com/datasets/jacksondivakarr/sample34
 
-🎯 Target Variable
+The dataset contains information about used cars and their selling prices.
 
-Selling Price
-🛠️ Technologies Used
-Python
-NumPy
-Pandas
-Scikit-learn
-Matplotlib / Seaborn
-Jupyter Notebook
-🤖 Machine Learning Models
+### Features
+* name                   
+* year                   
+* km_driven             
+* fuel                    
+* seller_type             
+* transmission            
+* owner                   
+* seats                   
+* max_power (in bph)     
+* Mileage Unit           
+* Mileage                
+* Engine (CC)  
 
-Models used in this project:
+**Target Variable**
 
-Linear Regression
-(Optional) Random Forest Regressor
-⚙️ Steps Involved
-Data Collection
-Data Cleaning & Preprocessing
-Exploratory Data Analysis (EDA)
-Handling Categorical Data (One-Hot Encoding)
-Train-Test Split
-Model Training
-Model Evaluation
-Prediction
-🚀 How to Run the Project
+* Selling Price
+---
+
+## Technologies Used
+
+* Python
+* NumPy
+* Pandas
+* Matplotlib
+* Scikit-learn
+* XgBoost
+* Jupyter Notebook
+
+---
+
+## Machine Learning Model
+
+* XgBoost Regression Model
+
+### Steps Involved
+
+1. Train-Test Split
+2. Data Preprocessing
+3. Handling Categorical Data using One-Hot Encoding
+4. Model Training
+5. Model Prediction
+
+---
+  
+ ## How to Run the Project
 
 1️⃣ Clone the repository
-
+```
 git clone https://github.com/Mahakchoudhari/Car_price_prediction.git
-
+```
 2️⃣ Install dependencies
-
+```
 pip install -r requirements.txt
+```
+3️⃣ Run the notebook or Python script
 
-3️⃣ Run the notebook
+---
 
-Car_price_prediction.ipynb
-📈 Example Prediction
+## Example Prediction
 
 Example Input:
 
-Year: 2018
-Present Price: 8.5
-Kms Driven: 25000
+Year: 2015
+Present Price: 6.5
+Kms Driven: 35000
 Fuel Type: Petrol
 Transmission: Manual
 
 Output:
 
-Predicted Selling Price: ~₹X Lakhs (depends on model)
+** Predicted Car Price: ~₹X Lakhs
 
-📁 Project Structure
+---
+
+## Project Structure
+
+```
 Car_price_prediction
 │
 ├── car data.csv
 ├── Car_price_prediction.ipynb
 ├── requirements.txt
 └── README.md
-🎯 Key Highlights
+```
 
-✔ End-to-end Machine Learning project
-✔ Real-world dataset
-✔ Feature engineering + encoding
-✔ Model evaluation using regression metrics
-✔ Beginner-friendly ML pipeline
+## Author
 
-👩‍💻 Author
-
-Mehak Choudhari
+**Mahak Choudhari**
 Machine Learning Student
