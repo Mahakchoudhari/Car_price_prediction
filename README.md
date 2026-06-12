@@ -90,6 +90,7 @@ pip install -r requirements.txt
 
 ## 📦 Requirements
 ```
+jupyter notebook
 scikit-learn
 pandas
 numpy
